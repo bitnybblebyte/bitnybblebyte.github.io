@@ -18,7 +18,7 @@ h2 {
 
 p {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 /*  CLASSES  */
@@ -33,15 +33,15 @@ p {
 
 #page {
   top: 0px;
-  width: 780px;
+  width: 980px;
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
-  background-color: #f0f0f0;
+  background-color: #ffffff;
 }
 
 #nav {
-  width: 800px;
+  width: 1000px;
   height: 50px;
   margin-left: auto;
   margin-right: auto;
@@ -63,7 +63,7 @@ p {
 }
 
 #nav ul li a {
-  width: 200px;
+  width: 250px;
   display: block;
   text-align: center;
   display: table-cell;
@@ -80,8 +80,8 @@ p {
 }
 
 #header {
-  width: 800px;
-  height: 128px;
+  width: 1000px;
+  height: 256px;
   margin-left: auto;
   margin-right: auto;
 
@@ -90,7 +90,7 @@ p {
 }
 
 #header h1 {
-  line-height: 128px;
+  line-height: 256px;
 }
 
 #header * {
