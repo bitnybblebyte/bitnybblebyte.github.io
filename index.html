@@ -3,19 +3,44 @@
   <head>
     <title>Home - Bit.Nybble.Byte</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+      .image {
+        margin-left: -10px;
+        margin-top: -10px;
+      }
+      .img_overlay {
+        bottom: 0;
+        right: 100px;
+        position: absolute;
+      }
+      .img_container {
+        position: relative;
+      }
+      p {
+        padding-bottom: 50px;
+      }
+    </style>
   </head>
   <body>
     <script src="header.js"></script>
     <div id="page">
-      <h2>
-      	Purpose
-      </h2>
-      <p>
-        The purpose of Bit.Nybble.Byte (BNB) is to provide an environment for students to expand their knowledge in Java based software design past the material covered by the programming courses offered in the school curriculum. The content covered in the school curriculum is ideal for students that are just being introduced to Java based software design, whereas BNB would provide more challenging opportunities for students with supplementary experience. These opportunities would primarily revolve around the building of real world applications with a group of equally skilled programmers.
-      </p>
-      <p>
-        <a href="contact.html">Contact us</a> to join Bit.Nybble.Byte!
-      </p>
+      <h2>Home</h2>
+      <p> The purpose of Bit.Nybble.Byte (BNB) is to provide an environment for students to expand their knowledge in Java based software design past the material covered by the programming courses offered in the school curriculum.</p>
+      <div class="img_container">
+        <img src="images/java.png" class="center image">
+        <h1 class="img_overlay">Java</h1>
+      </div>
+      <p>BNB aims to expand knowledge in designing and creating software, focusing primarily on Java, beyond what is taught in school (e.g. game design, networking, OpenGL, etc.).</p>
+      <div class="img_container">
+        <img src="images/git.png" class="center image">
+        <h1 class="img_overlay" style="color: white;">Git</h1>
+      </div>
+      <p>Members can cooperate on projects by using Git, a version control system for collaborative coding.</p>
+      <h1 class="center">
+        <a href="contact.html">
+          Join Bit.Nybble.Byte!
+        </a>
+      </h1>
     </div>
   </body>
 </html>

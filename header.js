@@ -1,6 +1,7 @@
 var html =		"<div id='nav'>"
 	+ "\n" + 	"      <ul>"
 	+ "\n" + 	"        <li><a href='index.html'>Home</a></li>"
+    + "\n" + 	"        <li><a href='about.html'>About</a></li>"
 	+ "\n" +	"        <li><a href='http://github.com/bitnybblebyte'>Repositories</a></li>"
 	+ "\n" +	"        <li><a href='contact.html'>Contact</a></li>"
 	+ "\n" +	"      </ul>"
