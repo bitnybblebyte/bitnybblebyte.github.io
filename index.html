@@ -29,12 +29,26 @@
       <h2>Home</h2>
       <p> The purpose of Bit.Nybble.Byte (BNB) is to provide an environment for students to expand their knowledge in Java based software design past the material covered by the programming courses offered in the school curriculum.</p>
       <div class="img_container">
-        <img src="images/java.png" class="center image">
+        <script>
+          if (mobile){
+            document.write(" <img src='images/java_m.png' class='center image' style='width: 100%; height: auto;'>");
+          }
+          else {
+            document.write(" <img src='images/java.png' class='center image'>");
+          }
+        </script>
         <h1 class="img_overlay">Java</h1>
       </div>
       <p>BNB aims to expand knowledge in designing and creating software, focusing primarily on Java, beyond what is taught in school (e.g. game design, networking, OpenGL, etc.).</p>
       <div class="img_container">
-        <img src="images/git.png" class="center image">
+        <script>
+          if (mobile){
+            document.write(" <img src='images/git_m.png' class='center image' style='width: 100%; height: auto;'>");
+          }
+          else {
+            document.write(" <img src='images/git.png' class='center image'>");
+          }
+        </script>
         <h1 class="img_overlay" style="color: white;">Git</h1>
       </div>
       <p>Members can cooperate on projects by using Git, a version control system for collaborative coding.</p>
